@@ -1,2 +1,19 @@
-node_modules
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local database file
+*.db
+
+# OS & Editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
 .bolt/

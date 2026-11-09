@@ -1,0 +1,11 @@
+services:
+  api:
+    build: .
+    container_name: mobile_rest_api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./mobile_store.db:/app/mobile_store.db
+    restart: unless-stopped
+    environment:
+      - PYTHONUNBUFFERED=1

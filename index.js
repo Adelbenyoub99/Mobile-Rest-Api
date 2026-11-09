@@ -1,3 +1,2 @@
-// run `node index.js` in the terminal
-
-console.log(`Hello Node.js v${process.versions.node}!`);
+// Entry point redirecting to automated client demonstration
+require('./client.js');
