@@ -69,3 +69,4 @@ def test_crud_lifecycle():
     # 6. Verify 404 on deleted item
     get_after_del = client.get(f"/items/{item_id}")
     assert get_after_del.status_code == 404
+
